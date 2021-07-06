@@ -28,6 +28,7 @@ h1{
 #middle{
     background-image: url(images/middle\ bg.png);
     background-repeat: no-repeat;
+    background-position: 100%;
 }
 #bottom{
     text-align: center;
@@ -43,6 +44,7 @@ h1{
 #extra{
     background-image: url(images/extra\ bg.jpg);
     background-repeat: no-repeat;
+    background-position: 100%;
 }
 #optional{
     box-shadow: 0 0 10px rgb(200, 216, 211);

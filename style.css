@@ -1,6 +1,7 @@
 body{
     font-family: 'Bona Nova', serif;
     margin: 0;
+    text-justify: distribute;
 }
 .word-color{
     color: tomato;
@@ -14,6 +15,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .button{
     background-image:linear-gradient(orange,tomato);
@@ -29,25 +31,32 @@ h1{
 }
 #bottom{
     text-align: center;
-    text-justify: auto;
-
 }
 .box{
     width: 100%;
     padding: 20px;
     box-shadow: 0 0 10px rgb(200, 216, 211);
     border-radius: 20px;
-    margin-left: 5%;
-    margin-right: 5%;  
+    margin-left: 6%;
+    margin-right: 6%;  
+}
+#extra{
+    background-image: url(images/extra\ bg.jpg);
+    background-repeat: no-repeat;
+}
+#optional{
+    box-shadow: 0 0 10px rgb(200, 216, 211);
+    margin: 200px;
+    border-radius: 20px;
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 footer{
     height: 150px;
     background-color: rgb(3, 1, 12);
     text-align: center;
     color: rgb(32, 32, 100);
-}
-.optional{
-    box-shadow: 0 0 10px rgb(200, 216, 211);
-    margin: 200px;
-    border-radius: 20px;
 }
